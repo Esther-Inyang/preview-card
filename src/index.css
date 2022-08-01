@@ -79,8 +79,13 @@ main{
   margin-top: 1.5rem;
 }
 
-.previous-price{
+.new-price{
+  font-size: 1.8rem;
   
+}
+
+.previous-price{
+  text-decoration: line-through;
 }
 
 .cart-btn{

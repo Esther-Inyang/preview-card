@@ -15,7 +15,7 @@ function Main() {
                     <h1>Gabrielle Essence Eau De Parfum</h1>
                     <article>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perumer-Creator for the House of CHANEL.</article>
                     <p className='price'>
-                        $149.99 
+                        <span className='new-price'>$149.99</span>
                         <span className='previous-price'>$169.99</span>
                     </p>
                     <button className='cart-btn'>
