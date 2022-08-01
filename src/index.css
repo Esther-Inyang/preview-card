@@ -56,11 +56,19 @@ main{
 }
 
 .card-content h3{
-
+  font-size: .8rem;
+  color: hsl(228, 12%, 48%);
+  text-transform: uppercase;
+  letter-spacing: 2pt;
+  margin: .7rem 0;
 }
 
 .card-content h1{
-
+  font-size: 2rem;
+  /* font-weight: 900; */
+  line-height: 30px;
+  color: hsl(212, 21%, 14%);
+  margin-bottom: .7rem;
 }
 
 .card-content article{
@@ -68,11 +76,11 @@ main{
 }
 
 .price{
-
+  margin-top: 1.5rem;
 }
 
 .previous-price{
-
+  
 }
 
 .cart-btn{
@@ -82,6 +90,7 @@ main{
   border-radius: .6rem;
   border: none;
   display: flex;
+  margin-top: 1rem;
   align-items: center;
   justify-content: center;
   background-color: hsl(158, 36%, 37%);
