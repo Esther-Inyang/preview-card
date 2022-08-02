@@ -1,14 +1,16 @@
 import React from 'react'
-// import { FaBeer } from 'react-icons/fa'
 import { AiOutlineShoppingCart } from 'react-icons/ai'
 
 function Main() {
+  const cartMsg = () =>{
+    alert ('Sorry! No action here yet.')
+  }
   return (
     <main>
-        <div className='main-section'> 
+        <div className='section-center'> 
             <div className='preview-card'>
                 <section className='hero'>
-                    image here
+                    {/* hero image here  */}
                 </section>
                 <section className='card-content'>
                     <h3>perfume</h3>
@@ -19,8 +21,8 @@ function Main() {
                         <span className='previous-price'>$169.99</span>
                     </p>
                     <button className='cart-btn'>
-                        <span className='cart-logo'><AiOutlineShoppingCart color='white' font-size='30px'/></span>
-                        <span className='cart-text'>Add to Cart</span>
+                        <span className='cart-icon'><AiOutlineShoppingCart color='white' font-size='1.2rem'/></span>
+                        <span className='cart-btn-text' onClick={cartMsg}>Add to Cart</span>
                     </button>
                 </section>
             </div>
